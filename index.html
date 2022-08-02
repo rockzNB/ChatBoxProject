@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Box</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="main-container">
+    <header>
+        <span id="add-logo">LOGO HERE</span>
+    </header>
+    <div class="main_popup">
+        <div class="popup__Text">*MEMBER NAME*: hi lets chat</div>
+        <div class="popup__picture"></div>
+    </div>
+
+    <div class="content">
+        <div class="profile">
+            <div class="profile__header">
+                <h1>USER PROFILE HEADER</h1>
+                <div class="profile__pic">
+                    <h2>PROFILE PIC BLOCK</h2>
+                </div>
+            </div>
+            <div class='profile__bio'>PROFILE INFORMATION BLOCK</div>
+            <div class="profile__gallery">
+                <span>GALLERY BLOCK</span>
+                <div class="profile__columns">
+                    <div class="profile__photos">MY PHOTOS BLOCK</div>
+                    <div class="profile__videos">MY VIDEOS BLOCK</div></div>
+            </div>
+
+        </div>
+        <div class="chat">
+            <div class="chat__displayMsg" id="displayMsg"></div>
+
+            <form id="chat_form">
+                <input type="text" name="enterMsg" id="enterMsg" value="" placeholder="Type your message..." class="chat__input">
+                <button type="submit" class="chat__sendBtn"><text><b>SEND</b></text><i></i></button>
+
+                <div class="chat__giftRow">
+                    <img class="gift" src='images/gifts/crownQeen.png' alt="crown">
+                    <img class="gift" src='images/gifts/heart_simple.png' alt="heart">
+                    <img class="gift" src='images/gifts/plane.png'  alt="plane">
+                    <img class="gift" src='images/gifts/roseBasket.png' alt="basket">
+                    <img class="gift" src='images/gifts/diamond.png'  alt="diamond">
+                    <img class="gift" src='images/gifts/chocolate.png' alt="chocolate">
+                    <img class="gift" src='images/gifts/car.png' alt="car">
+                </div>
+
+
+                <button class="chat__emojiButton" type="button">😃</button>
+
+                <div id="drawer" class="chat__emoji-drawer hidden">
+                    <img class="emoji"src='images/emotes/smile.png' data-text=' :)' alt="emoji">
+                    <img class="emoji" src='images/emotes/grin.png' data-text=' :D' alt="emoji">
+                    <img class="emoji" src='images/emotes/sad.png' data-text=' :('  alt="emoji">
+                    <img class="emoji" src='images/emotes/kiss.png' data-text=' :*' alt="emoji">
+                    <img class="emoji" src='images/emotes/cry.png' data-text=" :'(" alt="emoji">
+                    <img class="emoji" src='images/emotes/woozy.png' data-text=' %)' alt="emoji">
+                    <img class="emoji" src='images/emotes/sunglasses.png' data-text=' 8)' alt="emoji">
+                    <img class="emoji" src='images/emotes/blankface.png' data-text=' :|' alt="emoji">
+                    <img class="emoji" src='images/emotes/inlove.png' data-text=' *_*'  alt="emoji">
+                    <img class="emoji" src='images/emotes/angry.png' data-text=' X('  alt="emoji">
+                    <img class="emoji" src='images/emotes/wink.png' data-text=" :')"  alt="emoji">
+                    <img class="emoji" src='images/emotes/tongueout.png' data-text=' :P' alt="emoji">
+                </div>
+            </form>
+
+        </div>
+
+
+    </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
